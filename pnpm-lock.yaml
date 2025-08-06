@@ -258,8 +258,8 @@ importers:
         specifier: 4.0.1
         version: 4.0.1
       tldts:
-        specifier: 7.0.10
-        version: 7.0.10
+        specifier: 7.0.11
+        version: 7.0.11
       tosource:
         specifier: 2.0.0-alpha.3
         version: 2.0.0-alpha.3
@@ -351,9 +351,6 @@ importers:
       '@types/jsrsasign':
         specifier: 10.5.13
         version: 10.5.13
-      '@types/lint-staged':
-        specifier: 13.3.0
-        version: 13.3.0
       '@types/mailparser':
         specifier: 3.4.6
         version: 3.4.6
@@ -418,8 +415,8 @@ importers:
         specifier: 1.18.0
         version: 1.18.0(eslint@9.32.0(jiti@2.5.1))
       fs-extra:
-        specifier: 11.3.0
-        version: 11.3.0
+        specifier: 11.3.1
+        version: 11.3.1
       globals:
         specifier: 16.3.0
         version: 16.3.0
@@ -457,8 +454,8 @@ importers:
         specifier: 7.1.4
         version: 7.1.4
       tsdown:
-        specifier: 0.13.2
-        version: 0.13.2(typescript@5.8.3)
+        specifier: 0.13.3
+        version: 0.13.3(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -2301,9 +2298,6 @@ packages:
   '@types/linkify-it@5.0.0':
     resolution: {integrity: sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q==}
 
-  '@types/lint-staged@13.3.0':
-    resolution: {integrity: sha512-WxGjVP+rA4OJlEdbZdT9MS9PFKQ7kVPhLn26gC+2tnBWBEFEj/KW+IbFfz6sxdxY5U6V7BvyF+3BzCGsAMHhNg==}
-
   '@types/mailparser@3.4.6':
     resolution: {integrity: sha512-wVV3cnIKzxTffaPH8iRnddX1zahbYB1ZEoAxyhoBo3TBCBuK6nZ8M8JYO/RhsCuuBVOw/DEN/t/ENbruwlxn6Q==}
 
@@ -3683,8 +3677,8 @@ packages:
   forwarded-parse@2.1.2:
     resolution: {integrity: sha512-alTFZZQDKMporBH77856pXgzhEzaUVmLCDk+egLgIgHst3Tpndzz8MnKe+GzRJRfvVdn69HhpW7cmXzvtLvJAw==}
 
-  fs-extra@11.3.0:
-    resolution: {integrity: sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==}
+  fs-extra@11.3.1:
+    resolution: {integrity: sha512-eXvGGwZ5CL17ZSwHWd3bbgk7UUpF6IFHtP57NYYakPvHOs8GDgDe5KJI36jIJzDkJ6eJjuzRA8eBQb6SkKue0g==}
     engines: {node: '>=14.14'}
 
   fs.realpath@1.0.0:
@@ -5210,8 +5204,8 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
-  rolldown-plugin-dts@0.15.1:
-    resolution: {integrity: sha512-X/oIfoqsEWb46aWXvdgKSN/TcF3Z50Mikk30KZcceVBgypEl9Tscvt3+o6pZzyJxZV3m+Kc+ftlHBBVQUGpXtw==}
+  rolldown-plugin-dts@0.15.3:
+    resolution: {integrity: sha512-qILn8tXV828UpzgSN7R3KeCl1lfc2eRhPJDGO78C6PztEQH51gBTG3tyQDIVIAYY58afhOsWW/zTYpfewTGCdg==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       '@typescript/native-preview': '>=7.0.0-dev.20250601.1'
@@ -5563,15 +5557,15 @@ packages:
   tldts-core@6.1.86:
     resolution: {integrity: sha512-Je6p7pkk+KMzMv2XXKmAE3McmolOQFdxkKw0R8EYNr7sELW46JqnNeTX8ybPiQgvg1ymCoF8LXs5fzFaZvJPTA==}
 
-  tldts-core@7.0.10:
-    resolution: {integrity: sha512-z7PilFbUHwd+IlQ72D0aHDpqykUUpe9yvwa5k/rFvFLmpvNmWqHEIHoSYwE5sA5LZU4bTTIjhDZEjURHc8f2ag==}
+  tldts-core@7.0.11:
+    resolution: {integrity: sha512-65eeOpBwWBabh0XqT+zB0vEllq/V3XcrF2fhgMXWWFfNw1yxEjeYg9Vv/B/UNozd0CTR/TohO1ubfn6O6mBW3w==}
 
   tldts@6.1.86:
     resolution: {integrity: sha512-WMi/OQ2axVTf/ykqCQgXiIct+mSQDFdH2fkwhPwgEwvJ1kSzZRiinb0zF2Xb8u4+OqPChmyI6MEu4EezNJz+FQ==}
     hasBin: true
 
-  tldts@7.0.10:
-    resolution: {integrity: sha512-n6xyIpjWEn6Ikpkir7zVdxNoRO3ZrL+x65ztg/JYoIMoPkpRQ87W4RxbNiso+axhF2zTAzwR+NJJE3NJazLb6Q==}
+  tldts@7.0.11:
+    resolution: {integrity: sha512-7k7JV/LZpGhFUu2t+YDaMZ1wdPPRNpaCYNQ0NQbSLY3Rbgy+XbCdkXyqRiS9TLXiYAsrv0yiA0OvnxmgRFCdNA==}
     hasBin: true
 
   tmp@0.0.33:
@@ -5661,8 +5655,8 @@ packages:
       typescript:
         optional: true
 
-  tsdown@0.13.2:
-    resolution: {integrity: sha512-sXZKvkqxxKMBL6I/AzXJnC+/9i6bLO8an+Jg4JSJDkEc99e3Y5bACQMTQyE1IXJE+7F6IRZ1P8AJQu31eQqv8A==}
+  tsdown@0.13.3:
+    resolution: {integrity: sha512-3ujweLJB70DdWXX3v7xnzrFhzW1F/6/99XhGeKzh1UCmZ+ttFmF7Czha7VaunA5Dq/u+z4aNz3n4GH748uivYg==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -8084,8 +8078,6 @@ snapshots:
 
   '@types/linkify-it@5.0.0': {}
 
-  '@types/lint-staged@13.3.0': {}
-
   '@types/mailparser@3.4.6':
     dependencies:
       '@types/node': 24.2.0
@@ -9672,7 +9664,7 @@ snapshots:
 
   forwarded-parse@2.1.2: {}
 
-  fs-extra@11.3.0:
+  fs-extra@11.3.1:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.1.0
@@ -11387,7 +11379,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rolldown-plugin-dts@0.15.1(rolldown@1.0.0-beta.31)(typescript@5.8.3):
+  rolldown-plugin-dts@0.15.3(rolldown@1.0.0-beta.31)(typescript@5.8.3):
     dependencies:
       '@babel/generator': 7.28.0
       '@babel/parser': 7.28.0
@@ -11796,15 +11788,15 @@ snapshots:
 
   tldts-core@6.1.86: {}
 
-  tldts-core@7.0.10: {}
+  tldts-core@7.0.11: {}
 
   tldts@6.1.86:
     dependencies:
       tldts-core: 6.1.86
 
-  tldts@7.0.10:
+  tldts@7.0.11:
     dependencies:
-      tldts-core: 7.0.10
+      tldts-core: 7.0.11
 
   tmp@0.0.33:
     dependencies:
@@ -11875,7 +11867,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  tsdown@0.13.2(typescript@5.8.3):
+  tsdown@0.13.3(typescript@5.8.3):
     dependencies:
       ansis: 4.1.0
       cac: 6.7.14
@@ -11885,7 +11877,7 @@ snapshots:
       empathic: 2.0.0
       hookable: 5.5.3
       rolldown: 1.0.0-beta.31
-      rolldown-plugin-dts: 0.15.1(rolldown@1.0.0-beta.31)(typescript@5.8.3)
+      rolldown-plugin-dts: 0.15.3(rolldown@1.0.0-beta.31)(typescript@5.8.3)
       semver: 7.7.2
       tinyexec: 1.0.1
       tinyglobby: 0.2.14
